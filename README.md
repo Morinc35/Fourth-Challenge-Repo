@@ -4,4 +4,6 @@
 ### Live Site: 
 ### Index File: index.html
 ### JavaScript File: /assets/script.js
-![PasswordGenerator]()
+![PasswordGenerator](/assets/Ready.PNG)
+![PasswordGenerator](/assets/game.PNG)
+
