@@ -6,4 +6,5 @@
 ### JavaScript File: /assets/script.js
 ![PasswordGenerator](/assets/Ready.PNG)
 ![PasswordGenerator](/assets/game.PNG)
+![PasswordGenerator](/assets/end.PNG)
 
