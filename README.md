@@ -1,2 +1,7 @@
 # Fourth-Challenge-Repo
-This is the repository for Challenge 4 in the MSU Coding Bootcamp
+##This is the repository for Challenge 4 in the MSU Coding Bootcamp
+
+### Live Site: 
+### Index File: index.html
+### JavaScript File: /assets/script.js
+![PasswordGenerator]()
