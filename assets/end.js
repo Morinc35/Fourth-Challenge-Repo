@@ -10,6 +10,3 @@ const finalScore = document.querySelector('#finalScore')
 username.addEventListener('keyup', () =>{
     saveScoreBtn.disabled = !username.value
 })
-function saveHighscore(
-    
-)
