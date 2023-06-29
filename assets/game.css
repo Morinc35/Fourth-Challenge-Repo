@@ -1,0 +1,83 @@
+body {
+    color: #fff;
+}
+
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: rgb(47, 157, 25);
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(47, 157, 25) 0.5;
+    transform: scale(1.05);
+    transition: 100ms;
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: #fff;
+}
+
+.choice-txt {
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: linear-gradient(32deg, gold 0%, rgb(182, 156, 12) 100%);
+}
+
+.incorrect {
+    background-color: linear-gradient(32deg, rgb(255, 0, 0) 0%, rgb(200, 28, 28) 100%);
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-txt {
+    text-align: center;
+}
+
+#timerDisplay {
+    display: flex;
+    justify-content: flex-end;
+    font-size: larger;
+    
+}
+
+#progressCounter {
+    background-color: black;
+    width: 20rem;
+    height: 3rem;
+    border: 2em rgb(224, 203, 203);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressCounterFull {
+    height: 100%;
+    background: rgb(224, 187, 0);
+    width: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+
+}
